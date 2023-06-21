@@ -1,9 +1,9 @@
 import React, { Suspense } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 
-import { AboutPageLazy, MainPageLazy } from "./pages";
-import { useTheme } from "./hooks";
-import { classNames } from "./helpers";
+import { AboutPageLazy, MainPageLazy } from "pages";
+import { useTheme } from "hooks";
+import { classNames } from "helpers";
 
 import "./styles/index.scss";
 
